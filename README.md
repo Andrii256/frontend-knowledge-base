@@ -83,3 +83,14 @@ sources for inspiration:
 - my own proffessional knowledge base
 - https://github.com/DXHeroes/knowledge-base-content/blob/master/practices/javascript-front-end-build-tools.md
 - frontend masters frontend book and roadmap
+
+# ideas
+- make topic at dou
+- write to Roman, Nemchinsky, Makeev and another famous people with ask for promotion
+- docs chapters
+    - I want contribute
+    - I wanted see output
+    - FAQs
+- integration with pocket and etc
+- roadmap with links in filters
+- create presets of filters and generate its h1
