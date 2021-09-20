@@ -94,3 +94,5 @@ sources for inspiration:
 - integration with pocket and etc
 - roadmap with links in filters
 - create presets of filters and generate its h1
+- add opportunity for logging in and voting. But do it wisely, not just much people. Maybe categorize them by expertness levels. Verify it by different certificates or etc achivements.
+- add opportunity for every user to create its own private knowledge base entries
