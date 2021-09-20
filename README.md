@@ -96,3 +96,8 @@ sources for inspiration:
 - create presets of filters and generate its h1
 - add opportunity for logging in and voting. But do it wisely, not just much people. Maybe categorize them by expertness levels. Verify it by different certificates or etc achivements.
 - add opportunity for every user to create its own private knowledge base entries
+
+# pages ideas
+- entry constructor (where user can just fill data and get ready JSON code)
+- list of moderators
+- maybe docs page
