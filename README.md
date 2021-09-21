@@ -6,8 +6,9 @@
     - from __ till now: link for moderator
     - from __ till __: link for moderator
     - from __ till __: link for moderator
+- link for "creators and contributors and sponsors" page
 - name
-- short description
+- short description (< 100 symbols, should be opportunity to write part of text like a code or link)
 - link to illustration
 - link to .md file with extensive description
 - type
@@ -15,6 +16,7 @@
         - tool (hosting providers, beautifiers, analyzers and etc services)
         - library
         - framework
+        - preprocessor
         - code snippet
         - tip || trick
     - content
@@ -33,6 +35,8 @@
             - podcast
             - roadmap
             - checklist
+            - phylosophies explanation || enumeration
+            - list of bugs
         - reference of solutions
         - statistics
         - checklist
@@ -46,9 +50,10 @@
     - node only
     - other
 - speed impact for your site (only in case if you set up it well)
-    - supersmall (impact almost absent. For superlightweight stuff)
+    - supersmall (impact almost absent. Superlightweight stuff)
     - small (about one or two scores in page speed. Impact small, but exist)
-    - tangible (something like chart.js. Thing whi)
+    - tangible (something like chart.js. Thing which impact is large, but not critical and wors taking)
+    - (disabled) supertangible (here should not be bullshit)
 - licence
     - may copy and use in your project
     - may copy only with additional conditions (like when you must show your code in opensource too or when you must write list of libraries in your app) 
@@ -66,7 +71,6 @@
     - seniors
     - experienced
     - starters
-- links to authors and or contributors
 - price
     - avaliable forever free (free features which are fully free for unlimited period and/or amount)
     - limited free (there are limitations in using free features. For example no more than 30 convertions for day)
@@ -75,14 +79,188 @@
         - price of cheapest tarif per month
         - price of cheapest tarif per year
         - minimal billing period
-- direction & subdirection
--
+- strictly relative domains (can be empty, it means it is not strictly relative) (based on skyworker domains list)
+    - Accounting
+    - Advertising
+    - Agriculture
+    - Alcohol & Tobacco
+    - Analytics
+    - Applied Cryptography
+    - Automotive
+    - Autonomous driving
+    - Aviation
+    - Banking
+    - Blockchain
+    - Business Intelligence
+    - Chatbots
+    - Construction
+    - Consulting
+    - Crypto
+    - Data communication
+    - Dating
+    - Delivery
+    - E-Learning
+    - E-commerce
+    - Ecology
+    - Education
+    - Electronic document circulation
+    - Energy
+    - Entertainment
+    - Finance
+    - Fintech
+    - Gambling & iGaming
+    - Game Dev
+    - HR & Recruiting
+    - Healthcare
+    - Industrial automation
+    - Information Technology
+    - Insurance
+    - IoT
+    - Legal
+    - Logistics & Distribution
+    - Machine Learning
+    - Manufacturing
+    - Marketing
+    - Marketing & PR
+    - Marketplace
+    - Media
+    - Mining
+    - Productivity tools
+    - Real Estate
+    - Retail
+    - SaaS
+    - Security
+    - Smart Industry
+    - Social Network
+    - Sports
+    - Statistics
+    - Telecom
+    - Tourism
+    - Transport
+    - Travel
+- direction & subdirection (separate chapter)
 
+# directions & subdirections
+- computer science
+    - algorithms & datastructures
+    - databases
+    - design patterns
+    - how do browsers works
+    - code quality
+    - frontend architecture
+    - app state management
+- popular philosophies and approaches
+    - TDD test driven development
+    - virtual DOM
+    - SPA single page application
+- infrastructure (dev-ops)
+    - internet-networking
+    - development environment setup
+    - version controlling
+    - package managers
+    - process automation
+- security
+- markup (layout)
+    - cros-browser compatibility
+    - html and templating
+    - email
+    - styles
+    - mobile and responsivenes
+    - working with fonts
+    - working with mediafiles
+    - working with iframes
+- animations
+    - css-only based animations
+    - js based animations
+- virtual reality
+- app logic
+    - text editing
+- core vanila javascript (based on learn.javascript.ru)
+    - ES6 and another news
+    - arrays
+    - js data types
+    - js non-primitive data types
+    - advanced work with functions
+    - prototypes, inheritance
+    - classes
+    - errors handling
+    - async js, promises, async/await
+    - generators
+    - modules, file and code splitting
+    - miscalaneous advanced topics
+    - regular expressions
+- javascript within browser
+    - DOM, document
+    - events
+    - forms
+    - miscalaneous
+    - working with internet (fetch and etc)
+    - data saving in browser
+    - js APIs for animation
+    - web-components (shadow DOM, custom elements etc)
+- typescript (based on typescript lang docs reference)
+    - Utility types
+    - Decorators
+    - Declaration Merging
+    - Enums
+    - Iterators and Generators
+    - JSX
+    - Mixins
+    - Modules
+    - Module Resolution
+    - Namespaces
+    - Namespaces and Modules
+    - Symbols
+    - Trip-Slah Directives
+    - Type Compatibility
+    - Type Inference
+    - Variable Declaration
+- testing
+    - unit testing
+    - acceptance testing
+    - visual regression testing
+    - accessibility testing
+    - performance testing
+    - end-to-end testing
+    - integration testing
+    - cross-browser compatibility testing
+- web assembly
+- js based native apps
+    - PWA
+    - react native
+- performance optimization
+    - core web vitals
+- UX user experience
+    - accesbility
+- UI user interface design
+- SEO
+    - semantic
+- people and process management
+    - finances management
+    - time management
+    - team management
+- law
+    - ukraine law
+- psyhology
+    - team work
+    - communication
+- career growth
+    - salaries
+    - personal brand reputation
+    - interview preparation
+- other tech
+    - robotics
+    - IOT internet of things
+    - AI artificial inteligence
+- miscalaneous fiction
+    - predictions of future
+    - photography
 
 sources for inspiration:
 - my own proffessional knowledge base
 - https://github.com/DXHeroes/knowledge-base-content/blob/master/practices/javascript-front-end-build-tools.md
 - frontend masters frontend book and roadmap
+- skyworker list of domains
 
 # ideas
 - make topic at dou
@@ -96,8 +274,28 @@ sources for inspiration:
 - create presets of filters and generate its h1
 - add opportunity for logging in and voting. But do it wisely, not just much people. Maybe categorize them by expertness levels. Verify it by different certificates or etc achivements.
 - add opportunity for every user to create its own private knowledge base entries
+- add textaria to get custom callback inside filter
+- different languages
+- add 'history' into docs folder
+- make docs folder as `obsidian` vault.
+- create vscode or webstorm extension
+- prepare trello board with how to contribute
+- think about further steps
+- create full maps of categories
+- rewrite it for make it more lightweight for big amount of items, divide .json file for more separate files
 
 # pages ideas
 - entry constructor (where user can just fill data and get ready JSON code)
 - list of moderators
-- maybe docs page
+- docs, I can render it from .md files too
+
+# docs structure
+- how to contribute
+- moderators and contributors
+- project history
+- FAQ
+
+# plan for me:
+
+# stoped on
+I finished with adding directions & subdirections from dxheroes version. Further is update current list of directions & subdirections from frontend masters roadmaps and frontend books
